@@ -11,7 +11,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="index.css">
 </head>
-  <body>
+  <body class="dark-theme || light-theme">
     <div class="d-flex">
       <aside class="sidebar" id="sidebar">
         <button class="nav-btn" onclick="showPage('dashboard', event)">
@@ -35,12 +35,10 @@
     <div class="flex-grow-1">
       <header class="topbar">
         <h5 class="ph">Let pass their <h5 class="wrath"> WRATH </h5> and <h5 class="breath"> breath </h5></h5>
-        <p></p>
         <div class="dropdown">
-          <button class="btn d-flex align-items-center gap-2" data-bs-toggle="dropdown" onclick="CV()">
-            <div class="text-end">
+           <button class="btn-toggle"><i class="fa-solid fa-moon"></i></button>
+          <button class="CV" data-bs-toggle="dropdown" onclick="CV()">
               <div class="fw-bold">Kevin XU</div>
-            </div>
                 <img src="img_me/mybigassforhead.png" class="rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center"
               style="width: 40px; height: 40px"/>
           </button>

@@ -4,6 +4,17 @@ const dataSearch = document.querySelector('[data-search]');
 const userCardContainer = document.querySelector('[data-user-cards-container]');
 const userCardTemplate = document.querySelector('[data-user-template]');
 
+// Dark theme
+// Select the button
+const btn = document.querySelector('.btn-toggle');
+
+// Listen for a click on the button
+btn.addEventListener('click', function() {
+  // Then toggle (add/remove) the .dark-theme class to the body
+  document.body.classList.toggle('dark-theme'); 
+})
+
+
 // Cache et montre les pages
 function showPage(page, event) {
   document.querySelectorAll(".page").forEach((p) => {

@@ -1,5 +1,17 @@
 body {
-  background: rgb(30, 28, 28);
+  color: #222;
+  background: #fff;
+}
+a {
+  color: #0033cc;
+}
+/* Dark Mode styles */
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+body.dark-theme a {
+  color: #809fff;
 }
 /* Catchphrase */
 
@@ -69,12 +81,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   position: relative;
 }
- 
+
+
+.CV {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border:none;
+  background: none;
+} 
+body.dark-theme .CV {
+  color: #eee;
+}
+
 
 .dropdown {
+  display: flex;
+  flex-direction: row;
   position: absolute;
   right: 2%;
 }
@@ -128,7 +153,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 5px;
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 
 .card {
@@ -149,6 +174,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+
 }
 
 td.description {
@@ -156,9 +182,38 @@ td.description {
     word-break: break-word;
     max-width: 40vmax
 }
+/* tables darktheme*/
 
-template.hover{
-    background-color: rgb(179, 175, 175);
+/* Search bar */
+body.dark-theme input[type="search"] {
+  background: #1e1e1e;
+  color: #eee;
+  border-color: #444;
+}
+
+body.dark-theme input[type="search"]::placeholder {
+  color: #aaa;
+}
+
+/* Table header et body */
+body.dark-theme .table {
+  background: #1e1e1e;
+  color: #eee;
+  --bs-table-bg: #1e1e1e;       
+  --bs-table-color: #eee;       
+}
+
+body.dark-theme .table td,
+body.dark-theme .table th {
+  color: #eee;
+  border-color: #444;
+  background: #1e1e1e;
+}
+
+/* Badge */
+body.dark-theme .badge.bg-light {
+  background-color: #333 !important;
+  color: #eee !important;
 }
 
 /* experience */
