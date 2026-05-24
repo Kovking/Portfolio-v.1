@@ -1,0 +1,50 @@
+[
+{
+    "id": "1",
+    "name": "E-todo",
+    "description":"Create a todo list with a fonctionnal backend",
+    "speciality": "Web3"
+},
+{
+    "id": "2",
+    "name": "Hack-Juice",
+    "description":"Explore the mains vulnerabilities of websites through challenges that are classified using different categories (corresponding to the OWASP Top 10 categories) and various tags (such as ”Brute force”, ”OSINT”, ”Code analysis”).",
+    "speciality": "Security"
+},
+{
+    "id": "3",
+    "name": "YOWL",
+    "description":"design and develop a social web application allowing users to publish and interact with short content",
+    "speciality": "UI/UX"
+},
+{
+    "id": "4",
+    "name": "Tardis",
+    "description":"Using the provided dataset (available along with the subject), clean and analyze historical delay data, develop a predictive model",
+    "speciality": "Data/IA"
+},
+{
+    "id": "5",
+    "name": "Next-buy",
+    "description":"Investigate the datasets (available along with the subject) to extract some actionable business insights that drive revenue, marketing success, and operational efficiency",
+    "speciality": "Data/IA"
+},
+{
+    "id": "6",
+    "name": "Alice in Wonderland",
+    "description":"develop a prototype NLP engine performing operations on books from Project Gutenberg through dedicated CLI commands",
+    "speciality": "Data/IA"
+},
+{
+    "id": "7",
+    "name": "Eliza",
+    "description":"design and implement an intelligent chatbot that truly serves a purpose — one that a company would want to use or buy, in order to improve or streamline their business process.",
+    "speciality": "Data/IA"
+},
+{
+    "id": "8",
+    "name": "Next-buy",
+    "description":"design and ship a complete job and internship aggregator platform that collects external offers, standardizes data, and helps users make better decisions",
+    "speciality": "Web3"
+}
+]
